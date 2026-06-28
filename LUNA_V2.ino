@@ -197,6 +197,7 @@ if (Serial.available() > 0) {
   }
 
   // If moving, animate hands
+  
   if (moving) handsFront();
 
   // Automatically stop LEFT and RIGHT after 3 sec only
